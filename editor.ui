@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Editor</class>
+ <widget class="QDialog" name="Editor">
+  <property name="windowTitle">
+   <string>Редактор</string>
+  </property>
+
+  <widget class="QLineEdit" name="txtWord">
+   <property name="geometry"><rect><x>30</x><y>30</y><width>300</width><height>30</height></rect></property>
+  </widget>
+
+  <widget class="QLineEdit" name="txtTrans">
+   <property name="geometry"><rect><x>30</x><y>80</y><width>300</width><height>30</height></rect></property>
+  </widget>
+
+  <widget class="QLineEdit" name="txtLevel">
+   <property name="geometry"><rect><x>30</x><y>130</y><width>300</width><height>30</height></rect></property>
+  </widget>
+
+  <widget class="QPushButton" name="btnSave">
+   <property name="geometry"><rect><x>30</x><y>180</y><width>140</width><height>40</height></rect></property>
+   <property name="text"><string>Сохранить</string></property>
+  </widget>
+
+  <widget class="QPushButton" name="btnCancel">
+   <property name="geometry"><rect><x>190</x><y>180</y><width>140</width><height>40</height></rect></property>
+   <property name="text"><string>Отмена</string></property>
+  </widget>
+
+ </widget>
+</ui>
